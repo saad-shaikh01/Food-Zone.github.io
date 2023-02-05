@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css-files-link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./Css/root.css">
+    <!-- Bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- font-awosome-link -->
+    <script src="https://kit.fontawesome.com/9eb15fda7d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header style="background-color: var(--background-clr);">
+        <nav class="navbar fixed-top container navbar-expand-lg navbar-dark">
+            <a class="navbar-brand small-heading ps-5" href="#"><i class="fa-solid fa-pizza-slice pe-2"></i>FOOD-ZONE</a>
+            <button class="navbar-toggler d-lg-none fa-solid fa-champagne-glasses me-4 fs-3"
+                style="color: var(--secondary-clr); border: none;" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                         href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dish">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                </ul>
+                <div class="navbar-icon me-5 pe-5 fs-4 ">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </nav>
+        <div id="hero" class="hero-section pt-5 pb-3" style="background-color: var(--primary-clr)">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">
+                        <div class="hero-content">
+                            <div class="small-heading">Welcome Foodies</div>
+                            <div class="h1">Different Spices For the Different Tastes</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quod veritatis
+                                architecto odio, ea ratione quisquam libero expedita iusto saepe sit fuga officia,
+                                dolorem vel?</p>
+                            <button class="bttn mb-5">Order Now <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-10 col-lg-6 col-xl-6 col-12">
+                        <img src="./img/bg img (2).png" class="img img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main style="background-color: var(--primary-clr);">
+        <div id="about" class="about-section " style="background-color: var(--primary-clr)">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">
+                        <img src="./img/bg img (1).png" class="img img-fluid"
+                            style="border-radius: 40px; border: var(--border-primary);" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">
+                        <div class="about-content py-5 my-3">
+                            <div class="small-heading">Why Choose Us?</div>
+                            <div class="h2">What's Make Our Food Delicious!</div>
+                            <p>Lorem ipsum dolor Incidunt quod veritatis architecto odio, ea ratione quisquam libero
+                                expedita iusto saepe sit fuga officia, dolorem vel?</p>
+                            <button class="bttn">Read More</button>
+                            <div class="small-cards">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-10">
+                                        <div class="card-content py-3 px-3 fs-4 fw-bold bg-dark">
+                                            <i class="fa-solid fa-truck-fast me-2"></i><span>Fast-Delivery</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-10">
+                                        <div class="card-content py-3 px-3 fs-4 fw-bold bg-dark">
+                                            <i class="fa-solid fa-bowl-rice me-2"></i><span>Fresh-Food</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-10">
+                                        <div class="card-content py-3 px-3 fs-4 fw-bold bg-dark">
+                                            <i class="fa-solid fa-medal me-2"></i><span>Best-Quality</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-10">
+                                        <div class="card-content py-3 px-3 fs-4 fw-bold bg-dark">
+                                            <i class="fa-solid fa-phone-volume me-2"></i><span>24/7 Support</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="menu-section py-5">
+            <div class="container">
+                <div class="main-heading text-center">
+                    <div class="small-heading">Our Menu</div>
+                    <p>Our Top Dishes</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/pexels-valeria-boltneva-1199957.jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/card-img (5).jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/card-img (6).jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/card-img (3).jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/card-img (4).jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-12">
+                        <div class="menu-card ">
+                            <div class="card-content bg-dark">
+                                <img src="./img/card-img (1).jpg" class="img img-fluid" alt="">
+                                <div class="card-text">
+                                    <p>Delicious Food</p>
+                                    <div class="d-flex">
+                                        <p class="text-decoration-line-through">$4.00</p>
+                                        <p class="ps-3 text-danger fw-bold">$2.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dish" class="dish-section py-5">
+            <div class="container">
+                <div class="main-heading text-center">
+                    <div class="small-heading">Popular Feeds</div>
+                    <p>Our Popular Dishes</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (1).jpg" class="img img-fluid " alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (2).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (3).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (4).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (5).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (6).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (3).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 col-12">
+                        <div class="feed-card">
+                            <div class="card-content">
+                                <div class="img"><img src="./img/menu-card (4).jpg" class="img img-fluid" alt=""></div>
+                                <div class="card-text p-3 text-center lh-1">
+                                    <p class="fs-5 fw-bold">Delicious Food</p>
+                                    <div class="star-icons fs-5 pb-4" style="color: var(--secondary-clr);">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star">(50)</i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="fs-5 text-danger">$40.00</p>
+                                        <p class="fs-6 ps-2">$60.00</p>
+                                    </div>
+                                    <button class="bttn">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blog" class="stories-section py-5">
+            <div class="container ">
+                <div class="main-heading text-center pt-5">
+                    <div class="small-heading">Our Blogs</div>
+                    <p>Our Daily Stories</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-10 col-md-8 col-lg-4 col-xl-4 col-12">
+                        <div class="blog-card ">
+                            <div class="card-content">
+                                <img src="./img/card-img (5).jpg" class="img img-fluid" alt="">
+                                <div class="card-text px-3 py-3">
+                                    <p><i class="fa-solid fa-tags"></i>Food / <i class="fa-solid fa-tags"></i>Burger /
+                                        <i class="fa-solid fa-tags"></i> Pizza /
+                                    </p>
+                                    <div class="h3">Blog Title Goes here...</div>
+                                    <p>Lorem, ipsum dolor sit elit. Illo, repudiandae sequi!</p>
+                                    <button class="bttn2">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-8 col-lg-4 col-xl-4 col-12">
+                        <div class="blog-card ">
+                            <div class="card-content">
+                                <img src="./img/card-img (4).jpg" class="img img-fluid" alt="">
+                                <div class="card-text px-3 py-3">
+                                    <p><i class="fa-solid fa-tags"></i>Food / <i class="fa-solid fa-tags"></i>Burger /
+                                        <i class="fa-solid fa-tags"></i> Pizza /
+                                    </p>
+                                    <div class="h3">Blog Title Goes here...</div>
+                                    <p>Lorem, ipsum dolor sit elit. Illo, repudiandae sequi!</p>
+                                    <button class="bttn2">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-md-8 col-lg-4 col-xl-4 col-12">
+                        <div class="blog-card ">
+                            <div class="card-content">
+                                <img src="./img/card-img (3).jpg" class="img img-fluid" alt="">
+                                <div class="card-text px-3 py-3">
+                                    <p><i class="fa-solid fa-tags"></i>Food / <i class="fa-solid fa-tags"></i>Burger /
+                                        <i class="fa-solid fa-tags"></i> Pizza /
+                                    </p>
+                                    <div class="h3">Blog Title Goes here...</div>
+                                    <p>Lorem, ipsum dolor sit elit. Illo, repudiandae sequi!</p>
+                                    <button class="bttn2">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div id="order" class="contact-section my-5">
+            <div class="container">
+                <div class="main-heading text-center py-5">
+                    <div class="small-heading">Order Now</div>
+                    <p>Fastest Home Delivery</p>
+                </div>
+                <div class="contact-cards">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 col-12">
+                            <div class="card-content p-4 text-center">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p class="mt-3 fw-bold">7:30am to 10:30pm</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 col-12">
+                            <div class="card-content p-4 text-center">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <p class="mt-3 fw-bold">+123-456-7890</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 col-12">
+                            <div class="card-content p-4 text-center">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                <p class="mt-3 fw-bold">Lorem , impsum-33345.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contact-form  p-3">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-6 col-12">
+                            <form action="">
+                                <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Customer's Name">
+
+                                <label for="exampleFormControlInput1" class="form-label">Your Order</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Food You Want">
+
+                                <label for="exampleFormControlInput1" class="form-label">Your Detail</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Customer's Detail">
+
+                                <label for="exampleFormControlTextarea1" class="form-label mt-4">Enter Your
+                                    Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                    placeholder="Customer's Message"></textarea>
+                            </form>
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-6 col-12">
+                            <form action="">
+                                <label for="exampleFormControlInput1" class="form-label">Your Number</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Customer's Number">
+
+                                <label for="exampleFormControlInput1" class="form-label">How Much</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Number of  Order">
+
+                                <label for="exampleFormControlInput1" class="form-label">Pick Up</label>
+                                <input type="date" class="form-control text-light" id="exampleFormControlInput1"
+                                    placeholder="Customer's Detail">
+
+
+                                <iframe
+                                    src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" style="border: var(--border-primary); border-radius: 10px;"
+                                    class="w-100 mt-5" allowfullscreen></iframe>
+                            </form>
+                        </div>
+                        <button class="bttn w-75 mt-4">Submit</button☻>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer >
+
+            <div class="container ">
+                <footer class="text-center text-lg-start text-white">
+                    <div class="container p-4 pb-0">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-12 ">
+                                <h5 class="text-uppercase">Our Menu</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 1</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 2</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 3</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 4</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 5</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 6</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 7</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-12 ">
+                                <h5 class="text-uppercase">Quick Links</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 1</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 2</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 3</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 4</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 5</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 6</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 7</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-12 ">
+                                <h5 class="text-uppercase">Extra Links</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 1</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 2</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 3</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 4</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 5</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 6</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-arrow-right"></i> <a href="#!">Link Extra 7</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-12">
+                                <h5 class="text-uppercase">opening hours</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Monday:7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Tuesday 7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Wednesday 7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Thursday 7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Friday 7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Saturday 7:00am To 10pm
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-clock"></i> Sunday 7:00am To 10pm
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="mb-4 " style="color: var(--blue-clr); border: var(--border-primary);" />
+                    </div>
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                        © 2023 Developed by:
+                        <a style="color: var(--blue-clr)" href="#">Saad Shaikh</a>
+                    </div>
+                    </footer>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
